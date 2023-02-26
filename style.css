@@ -97,7 +97,7 @@ body{
     position: absolute;
     height: 20px;
     width: 20px;
-    border: 0ch;
+    border: 0px;
     border-radius: 50%;
     background-color:blue;
     top: 50%;
@@ -107,30 +107,33 @@ body{
 }
 .second_hand{
     position: absolute;
-    height: 150px;
+    height: 120px;
     width: 2px;
     background-color: aqua;
-    top: 37%;
+    top: 10%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform-origin: bottom;
+    transform: translate(-50%,0);
 }
 .minute_hand{
     position: absolute;
     height: 100px;
     width: 6px;
     background-color: red;
-    top: 33%;
+    top: 16%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform-origin: bottom;
+    transform: translate(-50%,0);
 }
 .hour_hand{
     position: absolute;
     height: 80px;
     width: 10px;
     background-color: black;
-    top: 33%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform-origin: bottom;
+    transform: translate(-50%,0);
 }
 .digital{
     display: flex;
